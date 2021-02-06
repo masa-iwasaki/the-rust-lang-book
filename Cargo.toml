@@ -1,8 +1,18 @@
 [package]
-name = "guessing_game"
+name = "the_rust_lang_book"
 version = "0.1.0"
 authors = ["Masatoshi Iwasaki <mstshiwasaki@gmail.com>"]
 edition = "2018"
+
+[[bin]]
+name = "guessing_game"
+test = false
+bench = false
+
+[[bin]]
+name = "hello_world"
+test = false
+bench = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
